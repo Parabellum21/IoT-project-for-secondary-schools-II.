@@ -1,0 +1,430 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{wiki}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{Educational initiative IoT Step by Step 2021.}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Internet\_of\_things
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Internet%5C_of%5C_things
+      \endverb
+    \endentry
+    \entry{book}{book}{}
+      \name{author}{1}{}{%
+        {{hash=768038939a8c949614ceb77593227cb9}{%
+           family={Somayya\bibnamedelima Madakam},
+           familyi={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Siddharth\bibnamedelima Tripathi},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           suffix={R.\bibnamedelimi Ramaswamy},
+           suffixi={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IT Applications Group, National Institute of Industrial Engineering (NITIE), Vihar Lake, Mumbai, India}%
+      }
+      \strng{namehash}{768038939a8c949614ceb77593227cb9}
+      \strng{fullhash}{768038939a8c949614ceb77593227cb9}
+      \strng{bibnamehash}{768038939a8c949614ceb77593227cb9}
+      \strng{authorbibnamehash}{768038939a8c949614ceb77593227cb9}
+      \strng{authornamehash}{768038939a8c949614ceb77593227cb9}
+      \strng{authorfullhash}{768038939a8c949614ceb77593227cb9}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Internet of Things (IoT): A Literature Review}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.scirp.org/html/56616\_56616.htm
+      \endverb
+      \verb{url}
+      \verb https://www.scirp.org/html/56616%5C_56616.htm
+      \endverb
+    \endentry
+    \entry{iotTukeLekcia1}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{Základy internetu vecí: lecture 1}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kurzy.kpi.fei.tuke.sk/iot1/2023/lecture.01.html
+      \endverb
+      \verb{url}
+      \verb https://kurzy.kpi.fei.tuke.sk/iot1/2023/lecture.01.html
+      \endverb
+    \endentry
+    \entry{iotTuke}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d418652066a9b92da39bbb421a0c25f5}{%
+           family={Biňas},
+           familyi={B\bibinitperiod},
+           given={Miroslav},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d418652066a9b92da39bbb421a0c25f5}
+      \strng{fullhash}{d418652066a9b92da39bbb421a0c25f5}
+      \strng{bibnamehash}{d418652066a9b92da39bbb421a0c25f5}
+      \strng{authorbibnamehash}{d418652066a9b92da39bbb421a0c25f5}
+      \strng{authornamehash}{d418652066a9b92da39bbb421a0c25f5}
+      \strng{authorfullhash}{d418652066a9b92da39bbb421a0c25f5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Základy internetu vecí}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kurzy.kpi.fei.tuke.sk/iot1/
+      \endverb
+      \verb{url}
+      \verb https://kurzy.kpi.fei.tuke.sk/iot1/
+      \endverb
+    \endentry
+    \entry{slovakKurz}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{školenie Internet vecí (IoT) a robotika.}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.soseza.sk/milan/akcie/2017IoT.php
+      \endverb
+      \verb{url}
+      \verb http://www.soseza.sk/milan/akcie/2017IoT.php
+      \endverb
+    \endentry
+    \entry{ciscoKurz}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7b1d1185b835814de783483f686e9825}{%
+           family={Cisco},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \strng{bibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorbibnamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cisco Networking academy: Introduction to IoT}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.netacad.com/courses/iot/introduction-iot
+      \endverb
+      \verb{url}
+      \verb https://www.netacad.com/courses/iot/introduction-iot
+      \endverb
+    \endentry
+    \entry{educInit}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Educational initiative IoT Step by Step 2021.}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://csn.chnu.edu.ua/news/iot-step-by-step-2021/
+      \endverb
+      \verb{url}
+      \verb https://csn.chnu.edu.ua/news/iot-step-by-step-2021/
+      \endverb
+    \endentry
+    \entry{educPac}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Internet of Things Education Package.}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://education.softwareag.com/internet-of-things
+      \endverb
+      \verb{url}
+      \verb https://education.softwareag.com/internet-of-things
+      \endverb
+    \endentry
+    \entry{sklenik1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b18a9b6ccc2e3d7ab53d3eaba90279b3}{%
+           family={Ingeimaks},
+           familyi={I\bibinitperiod},
+           given={Ingeimaks},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b18a9b6ccc2e3d7ab53d3eaba90279b3}
+      \strng{fullhash}{b18a9b6ccc2e3d7ab53d3eaba90279b3}
+      \strng{bibnamehash}{b18a9b6ccc2e3d7ab53d3eaba90279b3}
+      \strng{authorbibnamehash}{b18a9b6ccc2e3d7ab53d3eaba90279b3}
+      \strng{authornamehash}{b18a9b6ccc2e3d7ab53d3eaba90279b3}
+      \strng{authorfullhash}{b18a9b6ccc2e3d7ab53d3eaba90279b3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DIY home automation greenhouse}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.hackster.io/Ingeimaks/diy-home-automation-greenhouse-fd82f1
+      \endverb
+      \verb{url}
+      \verb https://www.hackster.io/Ingeimaks/diy-home-automation-greenhouse-fd82f1
+      \endverb
+    \endentry
+    \entry{sklenik2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fd3ae7b6f8643e58a657d496ef557263}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd3ae7b6f8643e58a657d496ef557263}
+      \strng{fullhash}{fd3ae7b6f8643e58a657d496ef557263}
+      \strng{bibnamehash}{fd3ae7b6f8643e58a657d496ef557263}
+      \strng{authorbibnamehash}{fd3ae7b6f8643e58a657d496ef557263}
+      \strng{authornamehash}{fd3ae7b6f8643e58a657d496ef557263}
+      \strng{authorfullhash}{fd3ae7b6f8643e58a657d496ef557263}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Automated Greenhouse (Arduino)}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=APs9M0DYuLM&ab_channel=BenjaminLang
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=APs9M0DYuLM&ab_channel=BenjaminLang
+      \endverb
+    \endentry
+    \entry{sklenik3}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Automated Greenhouse}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.instructables.com/Automated-Greenhouse/
+      \endverb
+      \verb{url}
+      \verb https://www.instructables.com/Automated-Greenhouse/
+      \endverb
+    \endentry
+    \entry{arduinoPyt}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{MicroPython with Arduino Boards}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.arduino.cc/learn/programming/arduino-and-python
+      \endverb
+      \verb{url}
+      \verb https://docs.arduino.cc/learn/programming/arduino-and-python
+      \endverb
+    \endentry
+    \entry{cytron}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Cytron Maker Pi Pico Base}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://rpishop.cz/pico-karty/3854-cytron-maker-pi-pico-base-deska-pro-pi-pico-pro-zacatecniky-38515758.html
+      \endverb
+      \verb{url}
+      \verb https://rpishop.cz/pico-karty/3854-cytron-maker-pi-pico-base-deska-pro-pi-pico-pro-zacatecniky-38515758.html
+      \endverb
+    \endentry
+    \entry{bookSimon}{book}{}
+      \name{author}{1}{}{%
+        {{hash=078a3e2d2419be596e2cfe656efc4c59}{%
+           family={Pavlišin},
+           familyi={P\bibinitperiod},
+           given={Šimon},
+           giveni={Š\bibinitperiod}}}%
+      }
+      \strng{namehash}{078a3e2d2419be596e2cfe656efc4c59}
+      \strng{fullhash}{078a3e2d2419be596e2cfe656efc4c59}
+      \strng{bibnamehash}{078a3e2d2419be596e2cfe656efc4c59}
+      \strng{authorbibnamehash}{078a3e2d2419be596e2cfe656efc4c59}
+      \strng{authornamehash}{078a3e2d2419be596e2cfe656efc4c59}
+      \strng{authorfullhash}{078a3e2d2419be596e2cfe656efc4c59}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Otvorený IoT Lab pre stredné školy}
+      \field{year}{2023}
+    \endentry
+    \entry{breadboard}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Breadboard}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Breadboard
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Breadboard
+      \endverb
+    \endentry
+    \entry{piPico}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Raspberry Pi Pico and Pico W}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html
+      \endverb
+      \verb{url}
+      \verb https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html
+      \endverb
+    \endentry
+    \entry{spotrebaEnergie1}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Raspberry PI Pico W Power Consumption (mA) and How to Reduce It.}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://peppe8o.com/raspberry-pi-pico-w-power-consumption/
+      \endverb
+      \verb{url}
+      \verb https://peppe8o.com/raspberry-pi-pico-w-power-consumption/
+      \endverb
+    \endentry
+    \entry{spotrebaEnergie2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e82872c831a03fb86d09110ef7ef75af}{%
+           family={presents},
+           familyi={p\bibinitperiod},
+           prefix={element14},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{e82872c831a03fb86d09110ef7ef75af}
+      \strng{fullhash}{e82872c831a03fb86d09110ef7ef75af}
+      \strng{bibnamehash}{e82872c831a03fb86d09110ef7ef75af}
+      \strng{authorbibnamehash}{e82872c831a03fb86d09110ef7ef75af}
+      \strng{authornamehash}{e82872c831a03fb86d09110ef7ef75af}
+      \strng{authorfullhash}{e82872c831a03fb86d09110ef7ef75af}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Measuring the Raspberry Pi Pico W's Power Consumption - Workbench Wednesdays.}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=GqmnV_T4yAU&ab_channel=element14presents
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=GqmnV_T4yAU&ab_channel=element14presents
+      \endverb
+    \endentry
+    \entry{spotrebaEnergie3}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3241dc80d220548537c0bcc771e3f0c5}{%
+           family={OLUJINMI},
+           familyi={O\bibinitperiod},
+           given={TOMISIN},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3241dc80d220548537c0bcc771e3f0c5}
+      \strng{fullhash}{3241dc80d220548537c0bcc771e3f0c5}
+      \strng{bibnamehash}{3241dc80d220548537c0bcc771e3f0c5}
+      \strng{authorbibnamehash}{3241dc80d220548537c0bcc771e3f0c5}
+      \strng{authornamehash}{3241dc80d220548537c0bcc771e3f0c5}
+      \strng{authorfullhash}{3241dc80d220548537c0bcc771e3f0c5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Raspberry Pi Pico vs. ESP32: Which Microcontroller Is Right for You?}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.makeuseof.com/raspberry-pi-pico-vs-esp32-microcontroller/
+      \endverb
+      \verb{url}
+      \verb https://www.makeuseof.com/raspberry-pi-pico-vs-esp32-microcontroller/
+      \endverb
+    \endentry
+    \entry{KA}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ee8d5a4118c304d2248142adbbecd9dc}{%
+           family={Šestáková},
+           familyi={Š\bibinitperiod},
+           given={Eliška},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee8d5a4118c304d2248142adbbecd9dc}
+      \strng{fullhash}{ee8d5a4118c304d2248142adbbecd9dc}
+      \strng{bibnamehash}{ee8d5a4118c304d2248142adbbecd9dc}
+      \strng{authorbibnamehash}{ee8d5a4118c304d2248142adbbecd9dc}
+      \strng{authornamehash}{ee8d5a4118c304d2248142adbbecd9dc}
+      \strng{authorfullhash}{ee8d5a4118c304d2248142adbbecd9dc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Konečný automat}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=C5KerRqrC8c&ab_channel=Eli%C5%A1ka%C5%A0est%C3%A1kov%C3%A1
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=C5KerRqrC8c&ab_channel=Eli%C5%A1ka%C5%A0est%C3%A1kov%C3%A1
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

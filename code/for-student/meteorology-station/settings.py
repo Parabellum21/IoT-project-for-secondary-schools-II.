@@ -1,0 +1,16 @@
+#Konfiguračné premenné
+LED_PIN = 6
+DHT_PIN = 8
+LIGHT_PIN = 27
+
+WIFI_LOGIN = ''
+WIFI_PASSWORD = ''
+
+MQTT_NAME = ''
+MQTT_IP = ''
+MQTT_PORT = 1883
+MQTT_LOGIN = ''
+MQTT_PASSWORD = ''
+MQTT_TOPIC = ''
+
+DATA_FILE = ''

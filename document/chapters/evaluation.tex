@@ -1,0 +1,46 @@
+% !TEX root = ../thesis.tex
+
+\chapter{Vyhodnotenie}
+\label{evaluation}
+
+V tejto časti podrobne opíšem projekt, ktorý sa podarilo zrealizovať. Zanalyzujem jeho plusy a mínusy. Uvediem aj možné alternatívne riešenia alebo doplnenia existujúceho projektu.
+
+\section{Téma a architektúra projektu}
+
+Vypracoval som systém zberu meteorologických dát (obr. \ref{proekt}), ktorý zahŕňa 3 úrovne architektúry \gls{iot} (obr. \ref{iot}). 
+
+Počas plánovania a vývoja projektu bola otázka výberu témy pomerne diskutabilná, pretože výber témy priamo súvisí s architektúrou projektu a jeho obsahom. Obával som sa, že projekt bude drahší a príliš komplikovaný, preto som do projektu zapojil len senzory. Chápal som tiež, že je dôležité ukázať študentom niekoľko úrovní architektúry internetu vecí, preto som sa rozhodol pridať do projektu IoT bránu. 
+
+Výber hlavného inteligentného zariadenia pre meteorologickú stanicu bol tiež dosť diskutabilný. Veď najlacnejšou možnosťou by bolo \textit{Arduino Uno}, ale ja som vybral \textit{Raspberry Pi Pico W} z viacerých dôvodov opísaných v osobitnej časti. 
+
+Ak projekt posúdite z hľadiska externého, môžete dospieť k záveru, že jeho komponenty možno nahradiť lacnejšími alebo energeticky úspornejšími. Pri vývoji tohto projektu som však chcel vytvoriť platformu na učenie, nie priemyselný výrobok. Preto som väčšinu svojich rozhodnutí robil z hľadiska práce so študentmi.
+
+Verím, že architektúra môjho riešenia je racionálne vyvážená a dobre premyslená.
+
+\section{Softvér meteostanice}
+Architektúra softvéru meteostanice je založená na 4 fyzikálnych stavoch jeho životného cyklu (obr. \ref{ksa}). Jednotlivé funkcie softvéru sú rozdelené medzi týmito stavmi. Softvér obsahuje základné funkcie IoT riešenia. Na programovanie meteostanice sa použil programovací jazyk \textit{Micropython}. 
+
+Pre prípadných študentov, ktorí by tento projekt vyvíjali, som vytvoril kostru programu. Preto plne naprogramovaný projekt slúži len ako príklad pre učiteľa.
+
+Myslím si, že architektúra kódu je dokonalá, ale napĺňanie funkcií jednotlivých stavov sa ukázalo ako dosť chaotické a neprehľadné. Preto by som neodporúčal, aby študenti presne reprodukovali môj kód.
+
+\section{Program na bráne}
+
+Projekt má bránu \gls{mqtt}, ktorá zhromažďuje všetky údaje odoslané z meteorologických staníc a zobrazuje ich na webovom rozhraní. Návrh brány bol prevzatý z bakalárskej práce \textit{Šimona Pavlišina}\cite{bookSimon}. Programovací jazyk použitý v tejto fáze je \textit{Node Red}.
+
+Môžem povedať, že program, ktorý som napísal, je pomerne jednoduchý. Je to spôsobené tým, že som nechcel túto etapu komplikovať, ale prvýkrát sa zoznámiť s jazykom \textit{Node Red} a z mojich skúseností môžem povedať, že takéto ľahké programy sú na túto úlohu ako stvorené.
+
+V prípade potreby môže učiteľ na základe znalostí svojich študentov a dostupných údajov vymyslieť iný scenár.
+
+\section{Testovanie}
+
+Projekt bol testovaný na reálnych študentoch stredných škôl. Testovanie sa uskutočnilo na študentoch \textit{Gymnázia svätého Tomáša Akvinského} na 12 člennej skupine a trvalo 1 hodinu a 30 minút. Cieľom testovania bolo overiť možnosť implementácie môjho projektu do vzdelávacieho kurzu v praxi a overiť, na koľko približných častí by sa mal projekt rozdeliť, aby sa dal preniesť do kurzu.
+
+Výsledkom testovania bolo, že v projekte neboli zistené žiadne kritické problémy. Po testovaní sa ukázalo, že tento projekt by sa mohol rozdeliť na 4 - 5 častí pre implementáciu do kurzu.
+
+Žiaľ, vzhľadom na mnohé okolnosti som nemohol projekt otestovať v plnom rozsahu a myslím si, že to je dosť veľké pochybenie tejto práce. Veď na objektívne posúdenie tejto práce je potrebné mať dobre otestovaný produkt.
+
+\section{Zhrnutie}
+
+Myslím si, že táto práca je celkom dobrá, ale ešte sa dá teoreticky rozvinúť. Podľa môjho názoru je téma vzdelávacích projektov veľmi široká, takže tento projekt môže byť začiatkom niečoho nového.
+

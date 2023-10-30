@@ -1,0 +1,176 @@
+\babel@toc {slovak}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {slovak}{}\relax 
+\contentsline {chapter}{Úvod}{1}{section*.4}%
+\contentsline {chapter}{\numberline {1}Analytická časť}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Čo je to Internet vecí}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Moje skúsenosti s vyučovaním \gls {iot} a prácou s elektronikou}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Analýza podobných riešení a cieľovej skupiny projektu.}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Analýza riešení na Slovensku}{6}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Analýza medzinárodných riešení}{6}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Analýza znalostí študentov stredných škôl na Slovensku}{7}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Podrobné plánovanie projektu a jeho jednotlivých častí}{8}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Základné princípy}{8}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Moja vízia projektu a jeho plánovania}{9}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Výber témy pre projekt}{10}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Výber softvéru a hardvéru na školenie}{12}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5}Výber modelu mikrokontroléra}{13}{subsection.1.4.5}%
+\contentsline {subsection}{\numberline {1.4.6}Dodatočné periférie pre Raspberry Pi Pico W}{15}{subsection.1.4.6}%
+\contentsline {subsection}{\numberline {1.4.7}Výber \gls {mqtt} brokera}{15}{subsection.1.4.7}%
+\contentsline {subsection}{\numberline {1.4.8}Prečo NodeRed?}{16}{subsection.1.4.8}%
+\contentsline {chapter}{\numberline {2}Syntetická časť}{17}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Počiatočný vývoj meteostanice}{17}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Prvé pokusy}{17}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Zásady vývoja}{18}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Hardvérová časť meteostanice}{19}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Schéma zapojenia}{19}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Príklady realizácie schémy zapojenia}{21}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Vývoj softvérovej časti meteostanice}{21}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Hlavná časť vývoja (Prvá iterácia)}{23}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Postup vývoja}{23}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Pomocná knižnica}{25}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Kritické problémy, s ktorými som sa stretol počas vývoja.}{26}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Výsledok vývoja a potreba refaktoringu.}{26}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Refaktoring (Druhá iterácia)}{27}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Konečný stavový automat v projekte}{28}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Výsledok refaktorovania kódu.}{28}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Testovanie (Tretia iterácia)}{29}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Ciele}{29}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Príprava}{30}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Úroveň znalostí študentov}{31}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Výsledky}{31}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}Záver}{31}{subsection.2.6.5}%
+\contentsline {section}{\numberline {2.7}Zhromažďovanie údajov na bráne a ich spracovanie}{31}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Analiza pridanej hodnoty projektu}{33}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Hlavná časť analýzy}{33}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Záver analýzy}{34}{subsection.2.8.2}%
+\contentsline {chapter}{\numberline {3}Vyhodnotenie}{35}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Téma a architektúra projektu}{35}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Softvér meteostanice}{35}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Program na bráne}{36}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Testovanie}{36}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Zhrnutie}{37}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Záver}{38}{chapter.4}%
+\contentsline {chapter}{Literatúra}{39}{chapter*.22}%
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 
+\contentsline {chapter}{Slovn\'{\i }k}{41}{section*.23}%
+\contentsline {chapter}{Zoznam príloh}{42}{chapter*.25}%
+\contentsline {chapter}{\numberline {A}Štruktúra projektu}{43}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Súčasti meteostanice}{43}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Hardvér meteostanice}{43}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Softvér meteostanice}{44}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}Súčasti \gls {iot} brány}{45}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}Hardvér}{45}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Softvér}{45}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}Alternatívny postup}{45}{subsection.A.2.3}%

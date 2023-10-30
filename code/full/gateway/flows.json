@@ -1,0 +1,2347 @@
+[
+    {
+        "id": "5f68aca5ed74d222",
+        "type": "tab",
+        "label": "Lights",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "eb96d2b3dbc5f914",
+        "type": "tab",
+        "label": "Blinds",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "56dffaead186fe4d",
+        "type": "tab",
+        "label": "Door Bridge",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ce435ca52d35e5ef",
+        "type": "tab",
+        "label": "Environment",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "449e988e722646d5",
+        "type": "tab",
+        "label": "dod workshop",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9add8ad2ea9a49d1",
+        "type": "tab",
+        "label": "Test Denys",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "22ec5c392dee17bb",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "72f3bafb204254d9",
+        "type": "websocket-listener",
+        "path": "ws://147.232.44.162/apps/localbus.lp",
+        "wholemsg": "false"
+    },
+    {
+        "id": "83b0938bea1730d3",
+        "type": "ui_tab",
+        "name": "IoTLab",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6c4ce9c218414ce3",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "63dbea7aab7e2bce",
+        "type": "ui_group",
+        "name": "Lights",
+        "tab": "83b0938bea1730d3",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "73877049964d6546",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.0.182",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ea48c94ebae17666",
+        "type": "ui_tab",
+        "name": "Blinds",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4405ec1d2a5fa9f3",
+        "type": "ui_group",
+        "name": "Blinds 1",
+        "tab": "ea48c94ebae17666",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0b68e8e4ef03e729",
+        "type": "ui_group",
+        "name": "Blinds 2",
+        "tab": "ea48c94ebae17666",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a5c5065dffc6a58d",
+        "type": "ui_group",
+        "name": "Blinds 3",
+        "tab": "ea48c94ebae17666",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3062947cc96103dd",
+        "type": "ui_group",
+        "name": "Blinds 4",
+        "tab": "ea48c94ebae17666",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bb33892dd8ccdb0b",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "361eee2d11d90437",
+        "type": "ui_group",
+        "name": "Scenarios",
+        "tab": "83b0938bea1730d3",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "22635b772292ed71",
+        "type": "ui_tab",
+        "name": "Scenarios",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b52e3b0e1c05489b",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "22635b772292ed71",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9dc853b2d9bd6f7a",
+        "type": "ui_tab",
+        "name": "Environment",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "46cdaf1665569496",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "9dc853b2d9bd6f7a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c0e5d3cefb813a1e",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mosquitto",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "cfcc04bd0ffa2fdf",
+        "type": "ui_group",
+        "name": "State",
+        "tab": "9dc853b2d9bd6f7a",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dfa872383458c6ad",
+        "type": "ui_tab",
+        "name": "DOD",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c7318f58b0ae6e29",
+        "type": "ui_group",
+        "name": "hello",
+        "tab": "dfa872383458c6ad",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "edee331b3d0cde40",
+        "type": "ui_group",
+        "name": "world",
+        "tab": "dfa872383458c6ad",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "efb731f82c06d454",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.0.182",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "14df79fe126ca199",
+        "type": "ui_group",
+        "name": "hall",
+        "tab": "dfa872383458c6ad",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a562ff853e358b16",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.0.182",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ef184ab30e8d3046",
+        "type": "ui_tab",
+        "name": "test",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "db8bc3d2b38c5754",
+        "type": "ui_group",
+        "name": "light",
+        "tab": "ef184ab30e8d3046",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "95140740608d4842",
+        "type": "ui_group",
+        "name": "fplot",
+        "tab": "ef184ab30e8d3046",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1422da05e9cdfb51",
+        "type": "ui_group",
+        "name": "humidity",
+        "tab": "ef184ab30e8d3046",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ccceedfcbca31804",
+        "type": "template",
+        "z": "5f68aca5ed74d222",
+        "name": "set value",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\n    \"action\":\"write\",\n    \"address\":2053,\n    \"datatype\":5,\n    \"value\": {{ payload }}\n}\n",
+        "output": "json",
+        "x": 760,
+        "y": 320,
+        "wires": [
+            [
+                "84b52e552fc306bd"
+            ]
+        ]
+    },
+    {
+        "id": "84b52e552fc306bd",
+        "type": "websocket out",
+        "z": "5f68aca5ed74d222",
+        "name": "ws://IoTLab Schneider",
+        "server": "72f3bafb204254d9",
+        "client": "",
+        "x": 1140,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "c5fdef01686d6a14",
+        "type": "ui_slider",
+        "z": "5f68aca5ed74d222",
+        "name": "",
+        "label": "Lights Slider",
+        "tooltip": "",
+        "group": "63dbea7aab7e2bce",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 1250,
+        "y": 160,
+        "wires": [
+            [
+                "16f3bf4b76aae727"
+            ]
+        ]
+    },
+    {
+        "id": "5c08b99756087cfd",
+        "type": "ui_button",
+        "z": "5f68aca5ed74d222",
+        "name": "",
+        "group": "63dbea7aab7e2bce",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Lights On",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "on",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1240,
+        "y": 80,
+        "wires": [
+            [
+                "16f3bf4b76aae727"
+            ]
+        ]
+    },
+    {
+        "id": "90f2b0b8e88cecfd",
+        "type": "template",
+        "z": "5f68aca5ed74d222",
+        "name": "turn on",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\n    \"action\":\"write\",\n    \"address\":2053,\n    \"datatype\":5,\n    \"value\": 255\n}\n",
+        "output": "str",
+        "x": 760,
+        "y": 240,
+        "wires": [
+            [
+                "84b52e552fc306bd",
+                "06178dab9454b8e1"
+            ]
+        ]
+    },
+    {
+        "id": "11436c68931b4fb3",
+        "type": "ui_button",
+        "z": "5f68aca5ed74d222",
+        "name": "",
+        "group": "63dbea7aab7e2bce",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Lights Off",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "off",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1240,
+        "y": 120,
+        "wires": [
+            [
+                "16f3bf4b76aae727"
+            ]
+        ]
+    },
+    {
+        "id": "48628c6cce167e61",
+        "type": "template",
+        "z": "5f68aca5ed74d222",
+        "name": "turn off",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\n    \"action\":\"write\",\n    \"address\":2053,\n    \"datatype\":5,\n    \"value\": 0\n}\n",
+        "output": "str",
+        "x": 750,
+        "y": 280,
+        "wires": [
+            [
+                "84b52e552fc306bd",
+                "99a0ce156f3e9cab"
+            ]
+        ]
+    },
+    {
+        "id": "16f3bf4b76aae727",
+        "type": "mqtt out",
+        "z": "5f68aca5ed74d222",
+        "name": "",
+        "topic": "iotlab/lights",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "73877049964d6546",
+        "x": 1430,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "9c1911b6ce462ee2",
+        "type": "mqtt in",
+        "z": "5f68aca5ed74d222",
+        "name": "",
+        "topic": "iotlab/lights",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "73877049964d6546",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 300,
+        "wires": [
+            [
+                "d4a5b256c6e712d3"
+            ]
+        ]
+    },
+    {
+        "id": "d4a5b256c6e712d3",
+        "type": "switch",
+        "z": "5f68aca5ed74d222",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "on",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "off",
+                "vt": "str"
+            },
+            {
+                "t": "istype",
+                "v": "number",
+                "vt": "number"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 270,
+        "y": 300,
+        "wires": [
+            [
+                "90f2b0b8e88cecfd"
+            ],
+            [
+                "48628c6cce167e61"
+            ],
+            [
+                "8725bf5e63d21c50"
+            ],
+            [
+                "5b683edd08138ef6"
+            ]
+        ]
+    },
+    {
+        "id": "5b683edd08138ef6",
+        "type": "ui_toast",
+        "z": "5f68aca5ed74d222",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 460,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8725bf5e63d21c50",
+        "type": "range",
+        "z": "5f68aca5ed74d222",
+        "minin": "0",
+        "maxin": "100",
+        "minout": "0",
+        "maxout": "255",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 580,
+        "y": 320,
+        "wires": [
+            [
+                "ccceedfcbca31804"
+            ]
+        ]
+    },
+    {
+        "id": "ebeb8654fcc51dae",
+        "type": "debug",
+        "z": "5f68aca5ed74d222",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "70dbca1833936da1",
+        "type": "mqtt in",
+        "z": "5f68aca5ed74d222",
+        "name": "",
+        "topic": "gateway/zigbee/IKEA Switch",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c0e5d3cefb813a1e",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 300,
+        "y": 520,
+        "wires": [
+            [
+                "61f2170e332572ff"
+            ]
+        ]
+    },
+    {
+        "id": "61f2170e332572ff",
+        "type": "switch",
+        "z": "5f68aca5ed74d222",
+        "name": "",
+        "property": "payload.action",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "on",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "off",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "brightness_move_up",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "brightness_move_down",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 510,
+        "y": 520,
+        "wires": [
+            [
+                "ebeb8654fcc51dae",
+                "90f2b0b8e88cecfd",
+                "ded9dc5e75978c90"
+            ],
+            [
+                "48628c6cce167e61",
+                "2f1e4e6e2af1bdeb"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "06178dab9454b8e1",
+        "type": "change",
+        "z": "5f68aca5ed74d222",
+        "name": "set 100",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "100",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 200,
+        "wires": [
+            [
+                "c5fdef01686d6a14"
+            ]
+        ]
+    },
+    {
+        "id": "99a0ce156f3e9cab",
+        "type": "change",
+        "z": "5f68aca5ed74d222",
+        "name": "set 0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 160,
+        "wires": [
+            [
+                "c5fdef01686d6a14"
+            ]
+        ]
+    },
+    {
+        "id": "c12d231c079979d1",
+        "type": "mqtt out",
+        "z": "5f68aca5ed74d222",
+        "name": "",
+        "topic": "iotlab/switch",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "73877049964d6546",
+        "x": 870,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "ded9dc5e75978c90",
+        "type": "template",
+        "z": "5f68aca5ed74d222",
+        "name": "on",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "on",
+        "output": "str",
+        "x": 710,
+        "y": 420,
+        "wires": [
+            [
+                "c12d231c079979d1"
+            ]
+        ]
+    },
+    {
+        "id": "2f1e4e6e2af1bdeb",
+        "type": "template",
+        "z": "5f68aca5ed74d222",
+        "name": "off",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "off",
+        "output": "str",
+        "x": 710,
+        "y": 460,
+        "wires": [
+            [
+                "c12d231c079979d1"
+            ]
+        ]
+    },
+    {
+        "id": "0ff87a683a38c501",
+        "type": "mqtt in",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "topic": "iotlab/blinds/+",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "73877049964d6546",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 200,
+        "wires": [
+            [
+                "598e31a9d460eafa"
+            ]
+        ]
+    },
+    {
+        "id": "598e31a9d460eafa",
+        "type": "function",
+        "z": "eb96d2b3dbc5f914",
+        "name": "get blinds id",
+        "func": "const addresses = {\n    1: 2361,\n    2: 2355,\n    3: 2327,\n    4: 2306\n};\n\nconst message = { \n    \"action\": \"write\", \n    \"address\": undefined, \n    \"datatype\": 5, \n    \"value\": undefined \n};\n\nconst regex = /^(.*)\\/(?<id>\\d+)$/\nmsg.blinds_id = regex.exec(msg.topic).groups['id'];\nmessage.address = addresses[msg.blinds_id];\nmsg.message = message;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 200,
+        "wires": [
+            [
+                "d318be5deccb9603"
+            ]
+        ]
+    },
+    {
+        "id": "d318be5deccb9603",
+        "type": "switch",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "up",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "down",
+                "vt": "str"
+            },
+            {
+                "t": "istype",
+                "v": "number",
+                "vt": "number"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 450,
+        "y": 200,
+        "wires": [
+            [
+                "b3b79ba1a740d4a5"
+            ],
+            [
+                "3c833b91d5ec5315"
+            ],
+            [
+                "e5f786d0268b6ae4"
+            ]
+        ]
+    },
+    {
+        "id": "b3b79ba1a740d4a5",
+        "type": "change",
+        "z": "eb96d2b3dbc5f914",
+        "name": "up",
+        "rules": [
+            {
+                "t": "set",
+                "p": "message.value",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "message",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 140,
+        "wires": [
+            [
+                "97a6266e5fd4cfe1"
+            ]
+        ]
+    },
+    {
+        "id": "97a6266e5fd4cfe1",
+        "type": "websocket out",
+        "z": "eb96d2b3dbc5f914",
+        "name": "ws://IoTLab Schneider",
+        "server": "72f3bafb204254d9",
+        "client": "",
+        "x": 980,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "3c833b91d5ec5315",
+        "type": "change",
+        "z": "eb96d2b3dbc5f914",
+        "name": "down",
+        "rules": [
+            {
+                "t": "set",
+                "p": "message.value",
+                "pt": "msg",
+                "to": "255",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "message",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 200,
+        "wires": [
+            [
+                "97a6266e5fd4cfe1"
+            ]
+        ]
+    },
+    {
+        "id": "9b1fe202242ef970",
+        "type": "change",
+        "z": "eb96d2b3dbc5f914",
+        "name": "offset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "message.value",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "message",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 260,
+        "wires": [
+            [
+                "97a6266e5fd4cfe1"
+            ]
+        ]
+    },
+    {
+        "id": "f9ad3c28057565b7",
+        "type": "ui_button",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "group": "4405ec1d2a5fa9f3",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "up",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 380,
+        "wires": [
+            [
+                "a3980f638c04290e"
+            ]
+        ]
+    },
+    {
+        "id": "a3980f638c04290e",
+        "type": "mqtt out",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "topic": "iotlab/blinds/1",
+        "qos": "",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "73877049964d6546",
+        "x": 420,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "967d4d72673d63d4",
+        "type": "ui_button",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "group": "4405ec1d2a5fa9f3",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "down",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "255",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 440,
+        "wires": [
+            [
+                "fb69f5c3e59d0d18"
+            ]
+        ]
+    },
+    {
+        "id": "fb69f5c3e59d0d18",
+        "type": "mqtt out",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "topic": "iotlab/blinds/1",
+        "qos": "",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "73877049964d6546",
+        "x": 420,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "49d6fc0d6401d3ce",
+        "type": "ui_button",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "group": "0b68e8e4ef03e729",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "up",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 630,
+        "y": 380,
+        "wires": [
+            [
+                "0ca158a0ec406e00"
+            ]
+        ]
+    },
+    {
+        "id": "0ca158a0ec406e00",
+        "type": "mqtt out",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "topic": "iotlab/blinds/2",
+        "qos": "",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "73877049964d6546",
+        "x": 880,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "368d56680f8848f8",
+        "type": "ui_button",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "group": "0b68e8e4ef03e729",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "down",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "255",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 630,
+        "y": 440,
+        "wires": [
+            [
+                "d539ac624d499fe3"
+            ]
+        ]
+    },
+    {
+        "id": "d539ac624d499fe3",
+        "type": "mqtt out",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "topic": "iotlab/blinds/2",
+        "qos": "",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "73877049964d6546",
+        "x": 880,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "b9b9da49ef35cf71",
+        "type": "ui_button",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "group": "a5c5065dffc6a58d",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "up",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 540,
+        "wires": [
+            [
+                "cf4e2d036a8c760a"
+            ]
+        ]
+    },
+    {
+        "id": "cf4e2d036a8c760a",
+        "type": "mqtt out",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "topic": "iotlab/blinds/3",
+        "qos": "",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "73877049964d6546",
+        "x": 420,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "e2e0a681d4101b27",
+        "type": "ui_button",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "group": "a5c5065dffc6a58d",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "down",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "255",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 600,
+        "wires": [
+            [
+                "056a34ef75f95dda"
+            ]
+        ]
+    },
+    {
+        "id": "056a34ef75f95dda",
+        "type": "mqtt out",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "topic": "iotlab/blinds/3",
+        "qos": "",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "73877049964d6546",
+        "x": 420,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "c63ab214a71e44dc",
+        "type": "ui_button",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "group": "3062947cc96103dd",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "up",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 630,
+        "y": 540,
+        "wires": [
+            [
+                "2675c5c7e8fd5238"
+            ]
+        ]
+    },
+    {
+        "id": "2675c5c7e8fd5238",
+        "type": "mqtt out",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "topic": "iotlab/blinds/4",
+        "qos": "",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "73877049964d6546",
+        "x": 880,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "94eb8b27ae497c9c",
+        "type": "ui_button",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "group": "3062947cc96103dd",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "down",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "255",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 630,
+        "y": 600,
+        "wires": [
+            [
+                "8e774f3a8f5f0cfd"
+            ]
+        ]
+    },
+    {
+        "id": "8e774f3a8f5f0cfd",
+        "type": "mqtt out",
+        "z": "eb96d2b3dbc5f914",
+        "name": "",
+        "topic": "iotlab/blinds/4",
+        "qos": "",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "73877049964d6546",
+        "x": 880,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "e5f786d0268b6ae4",
+        "type": "range",
+        "z": "eb96d2b3dbc5f914",
+        "minin": "0",
+        "maxin": "100",
+        "minout": "0",
+        "maxout": "255",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 620,
+        "y": 260,
+        "wires": [
+            [
+                "9b1fe202242ef970"
+            ]
+        ]
+    },
+    {
+        "id": "4973a1993ba8dfd2",
+        "type": "mqtt in",
+        "z": "56dffaead186fe4d",
+        "name": "",
+        "topic": "gateway/zigbee/Door Sensor",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "73877049964d6546",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 100,
+        "wires": [
+            [
+                "535bb207465d3119"
+            ]
+        ]
+    },
+    {
+        "id": "5af8d2abd4eaa0d6",
+        "type": "mqtt out",
+        "z": "56dffaead186fe4d",
+        "name": "",
+        "topic": "iotlab/door",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "73877049964d6546",
+        "x": 850,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "535bb207465d3119",
+        "type": "function",
+        "z": "56dffaead186fe4d",
+        "name": "open/closed",
+        "func": "if(msg.payload.contact == true){\n    msg.payload = 'closed';\n}else{\n    msg.payload = 'open';\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 100,
+        "wires": [
+            [
+                "5af8d2abd4eaa0d6"
+            ]
+        ]
+    },
+    {
+        "id": "bf81e77e78e6ebef",
+        "type": "mqtt in",
+        "z": "ce435ca52d35e5ef",
+        "name": "Xiaomi  LYWSD03MMC",
+        "topic": "gateway/ble/A4C1382A3868",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c0e5d3cefb813a1e",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 140,
+        "wires": [
+            [
+                "5ab4dfef27efcde4",
+                "88b1bf8cf0679d4f"
+            ]
+        ]
+    },
+    {
+        "id": "f7cd0957cf57911e",
+        "type": "ui_gauge",
+        "z": "ce435ca52d35e5ef",
+        "name": "",
+        "group": "14df79fe126ca199",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "donut",
+        "title": "Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "40",
+        "colors": [
+            "#0000ff",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "19",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 610,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "5ab4dfef27efcde4",
+        "type": "change",
+        "z": "ce435ca52d35e5ef",
+        "name": "tempc",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.tempc",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 120,
+        "wires": [
+            [
+                "f7cd0957cf57911e"
+            ]
+        ]
+    },
+    {
+        "id": "88b1bf8cf0679d4f",
+        "type": "change",
+        "z": "ce435ca52d35e5ef",
+        "name": "hum",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.hum",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 160,
+        "wires": [
+            [
+                "422e71bcbef0ba5b"
+            ]
+        ]
+    },
+    {
+        "id": "422e71bcbef0ba5b",
+        "type": "ui_gauge",
+        "z": "ce435ca52d35e5ef",
+        "name": "",
+        "group": "46cdaf1665569496",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#0000ff",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "19",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 600,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "ed4edb6136b407e2",
+        "type": "mqtt in",
+        "z": "ce435ca52d35e5ef",
+        "name": "",
+        "topic": "iotlab/door",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "73877049964d6546",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 300,
+        "wires": [
+            [
+                "3bbfff32510a5019"
+            ]
+        ]
+    },
+    {
+        "id": "3bbfff32510a5019",
+        "type": "ui_text",
+        "z": "ce435ca52d35e5ef",
+        "group": "cfcc04bd0ffa2fdf",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Door",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 430,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b665ef62df6ad658",
+        "type": "ui_gauge",
+        "z": "449e988e722646d5",
+        "name": "",
+        "group": "c7318f58b0ae6e29",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Kitchen",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "40",
+        "colors": [
+            "#0000ff",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "19",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 920,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "e2882f9cbe31ef24",
+        "type": "mqtt in",
+        "z": "449e988e722646d5",
+        "name": "",
+        "topic": "iotlab/+/dht/SENSOR",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "73877049964d6546",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 360,
+        "wires": [
+            [
+                "202194a9b1033699"
+            ]
+        ]
+    },
+    {
+        "id": "093a7b1b3571dbcf",
+        "type": "ui_gauge",
+        "z": "449e988e722646d5",
+        "name": "",
+        "group": "c7318f58b0ae6e29",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Bedroom",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "40",
+        "colors": [
+            "#0000ff",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "19",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 920,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "202194a9b1033699",
+        "type": "change",
+        "z": "449e988e722646d5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.DHT11.Temperature",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 360,
+        "wires": [
+            [
+                "4c864c7513b615a7"
+            ]
+        ]
+    },
+    {
+        "id": "4c864c7513b615a7",
+        "type": "switch",
+        "z": "449e988e722646d5",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "kitchen",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "bedroom",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "playroom",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "livingroom",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 750,
+        "y": 360,
+        "wires": [
+            [
+                "b665ef62df6ad658"
+            ],
+            [
+                "093a7b1b3571dbcf"
+            ],
+            [
+                "3ae375e85f53a739"
+            ],
+            [
+                "07201eb83f1adfce"
+            ]
+        ]
+    },
+    {
+        "id": "24af2ee90d47060a",
+        "type": "inject",
+        "z": "449e988e722646d5",
+        "name": "reset",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 750,
+        "y": 300,
+        "wires": [
+            [
+                "b665ef62df6ad658",
+                "093a7b1b3571dbcf",
+                "3ae375e85f53a739",
+                "07201eb83f1adfce"
+            ]
+        ]
+    },
+    {
+        "id": "3ae375e85f53a739",
+        "type": "ui_gauge",
+        "z": "449e988e722646d5",
+        "name": "",
+        "group": "edee331b3d0cde40",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Playroom",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "40",
+        "colors": [
+            "#0000ff",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "19",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 920,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "07201eb83f1adfce",
+        "type": "ui_gauge",
+        "z": "449e988e722646d5",
+        "name": "",
+        "group": "edee331b3d0cde40",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Livingroom",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "40",
+        "colors": [
+            "#0000ff",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "19",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 930,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "e5289920496eecae",
+        "type": "mqtt in",
+        "z": "9add8ad2ea9a49d1",
+        "name": "",
+        "topic": "iotlab/meteostanica/1",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "73877049964d6546",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 300,
+        "wires": [
+            [
+                "3723f0dc3ab44b85",
+                "53ed660fac924170",
+                "c747df5fdbb348dc",
+                "1b3a0b0d3f328c9d",
+                "e92055f1bef439c0"
+            ]
+        ]
+    },
+    {
+        "id": "3723f0dc3ab44b85",
+        "type": "change",
+        "z": "9add8ad2ea9a49d1",
+        "name": "set teplota",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.temperature",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 220,
+        "wires": [
+            [
+                "06d3e478fc61763b",
+                "3b76c09f24441c44"
+            ]
+        ]
+    },
+    {
+        "id": "53ed660fac924170",
+        "type": "debug",
+        "z": "9add8ad2ea9a49d1",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "06d3e478fc61763b",
+        "type": "ui_gauge",
+        "z": "9add8ad2ea9a49d1",
+        "name": "",
+        "group": "95140740608d4842",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "donut",
+        "title": "Teplota",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "40",
+        "colors": [
+            "#0000ff",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "19",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 820,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "c747df5fdbb348dc",
+        "type": "change",
+        "z": "9add8ad2ea9a49d1",
+        "name": "set humidity",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.humidity",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 280,
+        "wires": [
+            [
+                "9e5cf3d98a6406c8"
+            ]
+        ]
+    },
+    {
+        "id": "1b3a0b0d3f328c9d",
+        "type": "change",
+        "z": "9add8ad2ea9a49d1",
+        "name": "set light",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.light",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 340,
+        "wires": [
+            [
+                "60ba6118f061f0c9"
+            ]
+        ]
+    },
+    {
+        "id": "e92055f1bef439c0",
+        "type": "change",
+        "z": "9add8ad2ea9a49d1",
+        "name": "set time",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.time",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 400,
+        "wires": [
+            [
+                "53ed660fac924170"
+            ]
+        ]
+    },
+    {
+        "id": "9e5cf3d98a6406c8",
+        "type": "ui_gauge",
+        "z": "9add8ad2ea9a49d1",
+        "name": "",
+        "group": "1422da05e9cdfb51",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "40",
+        "colors": [
+            "#0000ff",
+            "#00b500",
+            "#ca3838"
+        ],
+        "seg1": "19",
+        "seg2": "30",
+        "diff": false,
+        "className": "",
+        "x": 820,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "60ba6118f061f0c9",
+        "type": "ui_gauge",
+        "z": "9add8ad2ea9a49d1",
+        "name": "",
+        "group": "db8bc3d2b38c5754",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "light",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#000000",
+            "#878787",
+            "#ffffff"
+        ],
+        "seg1": "40",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 810,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "3b76c09f24441c44",
+        "type": "ui_chart",
+        "z": "9add8ad2ea9a49d1",
+        "name": "",
+        "group": "95140740608d4842",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 810,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3a27889dc0695b4e",
+        "type": "inject",
+        "z": "9add8ad2ea9a49d1",
+        "name": "reset",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 650,
+        "y": 40,
+        "wires": [
+            [
+                "06d3e478fc61763b",
+                "9e5cf3d98a6406c8",
+                "60ba6118f061f0c9"
+            ]
+        ]
+    }
+]
